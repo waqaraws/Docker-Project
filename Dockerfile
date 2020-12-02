@@ -1,2 +1,2 @@
-FROM httpd:latest
-
+FROM centos:latest
+RUN  yum httpd -y
